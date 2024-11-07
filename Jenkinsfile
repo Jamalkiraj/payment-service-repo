@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "my_docker_1/trial"       // Docker image name
-        DOCKER_CREDENTIALS_ID = "my_docker_1"    // DockerHub credentials ID in Jenkins
+        DOCKER_IMAGE = "jananipk666/trial"       // Docker image name
+        DOCKER_CREDENTIALS_ID = "jananipk666"    // DockerHub credentials ID in Jenkins
     }
 
     stages {
